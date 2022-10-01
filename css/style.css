@@ -1,125 +1,129 @@
 html,
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
-    background-color: #281A39;
-    border-radius: 10px;
-    padding: 1rem;
+  background-color: #281838;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 .swiper {
-    height: 400px
+  height: 400px;
 }
 
 .swiper-slide {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: lightgray;
-    background-position: center;
-    background-size: cover;
-    filter: drop-shadow(2px 4px 6px lightgray);
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: lightgray;
+  background-position: center;
+  background-size: cover;
+  filter: drop-shadow(2px 4px 6px lightgray);
 }
 
 #swiper-wrapper-7b10188dce95ba68 .swiper-slide {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/m_7p45JfXQo/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NDJ8fGFydHxlbnwwfHx8fDE2NjQ0NzU0NzI&force=true&w=640);
+  background: #745B99 0% 0% no-repeat padding-box;
 }
 
 #swiper-wrapper-7b10188dce95ba68 .swiper-slide-next {
-    background-image: linear-gradient(to bottom, rgba(0, 150, 187, 0.8), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/m_7p45JfXQo/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NDJ8fGFydHxlbnwwfHx8fDE2NjQ0NzU0NzI&force=true&w=640);
-    font-size: 1.2rem;
-    font-weight: normal;
+  background-image: linear-gradient(to bottom, rgba(0, 150, 187, 0.8), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/m_7p45JfXQo/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NDJ8fGFydHxlbnwwfHx8fDE2NjQ0NzU0NzI&force=true&w=640);
+  font-size: 1.2rem;
+  font-weight: normal;
 }
 
 #swiper-wrapper-7b10188dce95ba69 .swiper-slide {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/rlbG0p_nQOU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OXx8YXJ0fGVufDB8fHx8MTY2NDQ4NDMwNQ&force=true&w=640);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/rlbG0p_nQOU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OXx8YXJ0fGVufDB8fHx8MTY2NDQ4NDMwNQ&force=true&w=640);
 }
 
 #swiper-wrapper-7b10188dce95ba69 .swiper-slide-next {
-    background-image: linear-gradient(to bottom, rgb(0, 150, 187, 0.8), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/rlbG0p_nQOU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OXx8YXJ0fGVufDB8fHx8MTY2NDQ4NDMwNQ&force=true&w=640);
-    font-size: 1.2rem;
-    font-weight: normal;
+  background-image: linear-gradient(to bottom, rgba(0, 150, 187, 0.8), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/rlbG0p_nQOU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OXx8YXJ0fGVufDB8fHx8MTY2NDQ4NDMwNQ&force=true&w=640);
+  font-size: 1.2rem;
+  font-weight: normal;
 }
 
 .circle {
-    border-radius: 50%;
-    width: 75px;
-    height: 75px;
-    background: #745B99;
-    border: 12px solid #f1f1f1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background: #745B99;
+  border: 12px solid #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa-chevron-right,
 .fa-chevron-left {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .btn-primary {
-    background-color: #281838;
-    border: none;
+  background-color: #281838;
+  border: none;
 }
 
 .rotated {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .grey {
-    color: #bbbbbb;
+  color: #495661;
+  opacity: 30%;
 }
 
 .purple {
-    color: #745B99;
+  color: #745B99;
 }
 
 .lines-news {
-    height: 580px;
-    border: 2px solid #745B99;
-    border-image: linear-gradient(to right, #745B99 50%, transparent 50%) 1% 0 40 50 stretch;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    margin-top: 100px;
+  height: 580px;
+  border: 2px solid #48487E;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  margin-top: 100px;
+  border-image: linear-gradient(to right, #48487E 50%, transparent 50%) 1% 0 40 50 stretch;
 }
 
 .lines-events {
-    height: 580px;
-    border: 2px solid #745B99;
-    border-image: linear-gradient(to left, #745B99 50%, transparent 50%) 1% 1 40 50 stretch;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    margin-top: 100px;
+  height: 580px;
+  border: 2px solid #48487E;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  margin-top: 100px;
+  border-image: linear-gradient(to left, #48487E 50%, transparent 50%) 1% 1 40 50 stretch;
 }
 
-@media screen and (max-width: 992px) {
-    .lines-news, .lines-events, .switcher {
-        border: none;
-    }
-    .circle {
-        display: none;
-    }
-  }
-
 .switcher {
-    margin-top:-645px;
+  margin-top: -645px;
 }
 
 .back-white {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .swiper-button-next, .swiper-rtl, .swiper-button-prev {
-    right: 10px;
-    left: auto;
-    background-color: white;
-    border-radius: 5px;
-    height: 60px !important;
-    width: 40px !important;
+  right: 10px;
+  left: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 60px !important;
+  width: 40px !important;
 }
+
+@media screen and (max-width: 992px) {
+  .lines-news, .lines-events, .switcher {
+    border: none;
+  }
+
+  .circle {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

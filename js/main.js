@@ -47,6 +47,7 @@ $(document).ready(function () {
 
   //Make news slider show first, set font colours and lines 
   $('#news').addClass("purple");
+  $('#events').addClass("grey");
   $('#slider-events').show();
   $('#slider-news, #events-button, #arrow-right').hide();
 

@@ -1,0 +1,120 @@
+$purple-light: #745B99;
+$purple-mid: #48487E;
+$purple-dark: #281838;
+$grey-light: #495661;
+
+@mixin lines {
+    height: 580px;
+    border: 2px solid $purple-mid;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    background-color: $purple-dark;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.swiper {
+    height: 400px
+}
+
+.swiper-slide {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 4px 6px lightgray);
+}
+
+#swiper-wrapper-7b10188dce95ba68 .swiper-slide {
+    background: #745B99 0% 0% no-repeat padding-box;
+}
+
+#swiper-wrapper-7b10188dce95ba68 .swiper-slide-next {
+    background-image: linear-gradient(to bottom, rgba(0, 150, 187, 0.8), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/m_7p45JfXQo/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NDJ8fGFydHxlbnwwfHx8fDE2NjQ0NzU0NzI&force=true&w=640);
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+#swiper-wrapper-7b10188dce95ba69 .swiper-slide {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/rlbG0p_nQOU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OXx8YXJ0fGVufDB8fHx8MTY2NDQ4NDMwNQ&force=true&w=640);
+}
+
+#swiper-wrapper-7b10188dce95ba69 .swiper-slide-next {
+    background-image: linear-gradient(to bottom, rgba(0, 150, 187, 0.8), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/rlbG0p_nQOU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OXx8YXJ0fGVufDB8fHx8MTY2NDQ4NDMwNQ&force=true&w=640);
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: $purple-light;
+    border: 12px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: $purple-dark;
+    border: none;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+.grey {
+    color: $grey-light;
+    opacity: 30%;
+}
+
+.purple {
+    color: $purple-light;
+}
+
+.lines-news {
+    @include lines;
+    border-image: linear-gradient(to right, $purple-mid 50%, transparent 50%) 1% 0 40 50 stretch;
+}
+
+.lines-events {
+    @include lines;
+    border-image: linear-gradient(to left, $purple-mid 50%, transparent 50%) 1% 1 40 50 stretch;
+}
+
+.switcher {
+    margin-top:-645px;
+}
+
+.back-white {
+    background-color: #ffffff;
+}
+
+.swiper-button-next, .swiper-rtl, .swiper-button-prev {
+    right: 10px;
+    left: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 60px !important;
+    width: 40px !important;
+}
