@@ -1,2 +1,2 @@
-# juniper
+# Juniper Coding Challenge
  
