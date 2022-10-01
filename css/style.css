@@ -57,20 +57,11 @@ body {
 .fa-chevron-right,
 .fa-chevron-left {
     color: #ffffff;
-
-}
-
-#arrow-right {
-    display: none;
 }
 
 .btn-primary {
     background-color: #281838;
     border: none;
-}
-
-#slider-1 {
-    display: none;
 }
 
 .rotated {
@@ -83,10 +74,6 @@ body {
 
 .purple {
     color: #745B99;
-}
-
-#events-button {
-    display: none;
 }
 
 .lines-news {

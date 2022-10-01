@@ -1,3 +1,5 @@
+// Set up swiper slider
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 30,
@@ -43,11 +45,15 @@ var swiper = new Swiper(".mySwiper", {
 
 $(document).ready(function () {
 
+  //Make news slider show first, set font colours and lines 
   $('#news').addClass("purple");
+  $('#slider-events').show();
+  $('#slider-news, #events-button, #arrow-right').hide();
 
+  //Function for when news button is clicked
   $('#news').on('click', function () {
-    $('#slider-1, #arrow-right, #events-button').hide();
-    $('#slider-2, #arrow-left, #news-button').show();
+    $('#slider-news, #arrow-right, #events-button').hide();
+    $('#slider-events, #arrow-left, #news-button').show();
     $('#events').addClass("grey");
     $('#events').removeClass("purple");
     $('#news').removeClass("grey");
@@ -56,9 +62,10 @@ $(document).ready(function () {
     $('#lines').removeClass("lines-events");
   });
 
+  //Function for when events button is clicked
   $('#events').on('click', function () {
-    $('#slider-2, #arrow-left, #news-button').hide();
-    $('#slider-1, #arrow-right, #events-button').show();
+    $('#slider-events, #arrow-left, #news-button').hide();
+    $('#slider-news, #arrow-right, #events-button').show();
     $('#events').removeClass("grey");
     $('#events').addClass("purple");
     $('#news').addClass("grey");
