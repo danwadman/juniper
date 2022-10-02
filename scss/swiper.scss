@@ -1,0 +1,47 @@
+.swiper {
+    height: 400px
+}
+
+.swiper-slide {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 4px 6px lightgray);
+}
+
+#swiper-wrapper-7b10188dce95ba68 .swiper-slide {
+    background: $purple-light 0% 0% no-repeat;
+}
+
+#swiper-wrapper-7b10188dce95ba68 .swiper-slide-next {
+    background: $purple-dark 0% 0% no-repeat;
+}
+
+.swiper-slide-next {
+    height: 110% !important;
+}
+
+#swiper-wrapper-7b10188dce95ba69 .swiper-slide {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://unsplash.com/photos/n297RLO3ax4/download?force=true&w=640);
+}
+
+#swiper-wrapper-7b10188dce95ba69 .swiper-slide-next {
+    background-image: linear-gradient(to bottom, rgba(0, 216, 255, 0.9), rgba(0, 0, 0, 0.9)), url(https://unsplash.com/photos/gOHfFgwyDNM/download?force=true&w=640);
+}
+
+.swiper-button-next {
+    right: -1px !important;
+}
+
+.swiper-button-prev {
+    left: -2px !important; 
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 26px !important;
+    color: #353c47;
+    font-weight: bold;
+}

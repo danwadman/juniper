@@ -47,32 +47,33 @@ $(document).ready(function () {
 
   //Make news slider show first, set font colours and lines 
   $('#news').addClass("purple");
-  $('#events').addClass("grey");
+  $('#events').addClass("grey-dark");
   $('#slider-events').show();
   $('#slider-news, #events-button, #arrow-right').hide();
+  $('#lines-news').addClass("lines-news");
 
   //Function for when news button is clicked
   $('#news').on('click', function () {
     $('#slider-news, #arrow-right, #events-button').hide();
     $('#slider-events, #arrow-left, #news-button').show();
-    $('#events').addClass("grey");
+    $('#events').addClass("grey-dark");
     $('#events').removeClass("purple");
-    $('#news').removeClass("grey");
+    $('#news').removeClass("grey-dark");
     $('#news').addClass("purple");
-    $('#lines').addClass("lines-news");
-    $('#lines').removeClass("lines-events");
+    $('#lines-news').addClass("lines-news");
+    $('#lines-events').removeClass("lines-events");
   });
 
   //Function for when events button is clicked
   $('#events').on('click', function () {
     $('#slider-events, #arrow-left, #news-button').hide();
     $('#slider-news, #arrow-right, #events-button').show();
-    $('#events').removeClass("grey");
+    $('#events').removeClass("grey-dark");
     $('#events').addClass("purple");
-    $('#news').addClass("grey");
+    $('#news').addClass("grey-dark");
     $('#news').removeClass("purple");
-    $('#lines').removeClass("lines-news");
-    $('#lines').addClass("lines-events");
+    $('#lines-news').removeClass("lines-news");
+    $('#lines-events').addClass("lines-events");
   });
 
 });

@@ -21,7 +21,11 @@
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- Swiper Slider -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -66,66 +70,84 @@
 
         <!-- Lines to show which slider is highlighted -->
 
-        <div id="lines" class="container lines-news"></div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div id="lines-news" class="col-md-4"></div>
+            <div id="lines-events" class="col-md-4"></div>
+            <div class="col-md-2"></div>
+        </div>
 
         <div class="switcher d-flex justify-content-center">
 
-            <div class="btn p-5">
-                <h1 id="news" class="font-weight-bold back-white p-3 mt-n4">NEWS</h1>
+            <div class="btn p-lg-5">
+                <a href="#" id="news">
+                    <h1 class="font-weight-bold back-white p-3 mt-n4">NEWS</h1>
+                </a>
             </div>
 
             <div class="circle p-3 mt-4"><i id="arrow-right" class="fa-solid fa-chevron-right"></i><i id="arrow-left"
                     class="fa-solid fa-chevron-left"></i>
             </div>
 
-            <div class="btn p-5">
-                <h1 id="events" class="font-weight-bold back-white p-3 mt-n4">EVENTS</h1>
+            <div class="btn p-lg-5">
+                <a href="#" id="events">
+                    <h1 class="font-weight-bold back-white p-3 mt-n4">EVENTS</h1< /a>
             </div>
 
         </div>
 
         <!-- Events Slider -->
 
-        <div id="slider-news" class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events p-3">
+        <div id="slider-news" class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events p-4">
             <div class="swiper-wrapper" id="swiper-wrapper-7b10188dce95ba68" aria-live="polite"
                 style="transition-duration: 0ms; transform: translate3d(-1949px, 0px, 0px);">
-                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active"
+                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active align-self-center"
                     data-swiper-slide-index="0" role="group" aria-label="1 / 9"
                     style="width: 619.667px; margin-right: 30px;">
+                    <div class="circle-back"></div>
                     <h1 class="display-4 text-capitalize font-weight-bold">18 Jul</h1>
                     <h3 class="pt-5">Example Event Title Here</h3>
-                    <p class="text-capitalize h6 pt-3"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
+                    <p class="text-capitalize h6 pt-3 grey"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
                 </div>
-                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active"
+                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active align-self-center"
                     data-swiper-slide-index="0" role="group" aria-label="1 / 6"
                     style="width: 332.667px;margin-right: 40px;">
-                    <h1 class="display-4 text-capitalize font-weight-bold">18 Jul</h1>
+                    <div class="circle-back"></div>
+                    <h1 class="display-4 text-capitalize font-weight-bold">19 Jul</h1>
                     <h3 class="pt-5">Example Event Title Here</h3>
-                    <p class="text-capitalize h6 pt-3"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
+                    <p class="text-capitalize h6 pt-3 grey"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
                 </div>
-                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active" data-swiper-slide-index="2"
-                    role="group" aria-label="3 / 9" style="width: 619.667px; margin-right: 30px;">
-                    <h1 class="display-4 text-capitalize font-weight-bold">18 Jul</h1>
+                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active align-self-center"
+                    data-swiper-slide-index="2" role="group" aria-label="3 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <div class="circle-back"></div>
+                    <h1 class="display-4 text-capitalize font-weight-bold">20 Jul</h1>
                     <h3 class="pt-5">Example Event Title Here</h3>
-                    <p class="text-capitalize h6 pt-3"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
+                    <p class="text-capitalize h6 pt-3 grey"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
                 </div>
-                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active" data-swiper-slide-index="3"
-                    role="group" aria-label="4 / 9" style="width: 619.667px; margin-right: 30px;">
-                    <h1 class="display-4 text-capitalize font-weight-bold">18 Jul</h1>
+                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active align-self-center"
+                    data-swiper-slide-index="3" role="group" aria-label="4 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <div class="circle-back"></div>
+                    <h1 class="display-4 text-capitalize font-weight-bold">21 Jul</h1>
                     <h3 class="pt-5">Example Event Title Here</h3>
-                    <p class="text-capitalize h6 pt-3"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
+                    <p class="text-capitalize h6 pt-3 grey"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
                 </div>
-                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active" data-swiper-slide-index="4"
-                    role="group" aria-label="5 / 9" style="width: 619.667px; margin-right: 30px;">
-                    <h1 class="display-4 text-capitalize font-weight-bold">18 Jul</h1>
+                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active align-self-center"
+                    data-swiper-slide-index="4" role="group" aria-label="5 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <div class="circle-back"></div>
+                    <h1 class="display-4 text-capitalize font-weight-bold">22 Jul</h1>
                     <h3 class="pt-5">Example Event Title Here</h3>
-                    <p class="text-capitalize h6 pt-3"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
+                    <p class="text-capitalize h6 pt-3 grey"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
                 </div>
-                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active" data-swiper-slide-index="5"
-                    role="group" aria-label="6 / 9" style="width: 619.667px; margin-right: 30px;">
-                    <h1 class="display-4 text-capitalize font-weight-bold">18 Jul</h1>
+                <div class="swiper-slide d-flex flex-column text-center p-5 back-img swiper-slide-active align-self-center"
+                    data-swiper-slide-index="5" role="group" aria-label="6 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <div class="circle-back"></div>
+                    <h1 class="display-4 text-capitalize font-weight-bold">23 Jul</h1>
                     <h3 class="pt-5">Example Event Title Here</h3>
-                    <p class="text-capitalize h6 pt-3"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
+                    <p class="text-capitalize h6 pt-3 grey"><i class="fa-regular fa-clock pr-1"></i>All-Day</p>
                 </div>
             </div>
             <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
@@ -138,27 +160,43 @@
 
         <!-- News Slider -->
 
-        <div id="slider-events" class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events p-3">
+        <div id="slider-events" class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events p-4">
             <div class="swiper-wrapper" id="swiper-wrapper-7b10188dce95ba69" aria-live="polite"
                 style="transition-duration: 0ms; transform: translate3d(-1949px, 0px, 0px);">
-                <div class="swiper-slide swiper-slide-next d-flex align-items-end justify-content-center p-5"
+                <div class="swiper-slide swiper-slide-next text-center flex-column d-flex justify-content-end p-3 align-self-center"
                     data-swiper-slide-index="1" role="group" aria-label="1 / 9"
                     style="width: 619.667px; margin-right: 30px;">
                     <p>It's a legal requirement to have a school website
                         but there is a lot of specific content that ofsted will be checking before they come to visit.
                     </p>
+                    <p class="grey">June 2</p>
                 </div>
-                <div class="swiper-slide swiper-slide-next d-flex align-items-end justify-content-center p-5"
-                    data-swiper-slide-index="1" role="group" aria-label="2 / 9"
-                    style="width: 619.667px; margin-right: 30px;">Slide 2</div>
-                <div class="swiper-slide d-flex align-items-end justify-content-center p-5" data-swiper-slide-index="2"
-                    role="group" aria-label="3 / 9" style="width: 619.667px; margin-right: 30px;">Slide 3</div>
-                <div class="swiper-slide d-flex align-items-end justify-content-center p-5" data-swiper-slide-index="3"
-                    role="group" aria-label="4 / 9" style="width: 619.667px; margin-right: 30px;">Slide 4</div>
-                <div class="swiper-slide d-flex align-items-end justify-content-center p-5" data-swiper-slide-index="4"
-                    role="group" aria-label="5 / 9" style="width: 619.667px; margin-right: 30px;">Slide 5</div>
-                <div class="swiper-slide d-flex align-items-end justify-content-center p-5" data-swiper-slide-index="5"
-                    role="group" aria-label="6 / 9" style="width: 619.667px; margin-right: 30px;">Slide 6</div>
+                <div class="swiper-slide swiper-slide-next text-center flex-column d-flex justify-content-end p-3 align-self-center"
+                    data-swiper-slide-index="2" role="group" aria-label="2 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <h3 class="text-capitalize font-weight-bold">Downhill Cycling Champion</h3>
+                    <p class="grey">June 2</p>
+                </div>
+                <div class="swiper-slide d-flex text-center flex-column justify-content-end p-3 align-self-center"
+                    data-swiper-slide-index="3" role="group" aria-label="3 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <p class="grey">June 2</p>
+                </div>
+                <div class="swiper-slide d- flex-column text-center justify-content-end p-3 align-self-center"
+                    data-swiper-slide-index="4" role="group" aria-label="4 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <p class="grey">June 2</p>
+                </div>
+                <div class="swiper-slide d-flex flex-column text-center justify-content-end p-3 align-self-center"
+                    data-swiper-slide-index="5" role="group" aria-label="5 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <p class="grey">June 2</p>
+                </div>
+                <div class="swiper-slide d-flex flex-column text-center justify-content-end p-3 align-self-center"
+                    data-swiper-slide-index="6" role="group" aria-label="6 / 9"
+                    style="width: 619.667px; margin-right: 30px;">
+                    <p class="grey">June 2</p>
+                </div>
             </div>
             <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
                 aria-controls="swiper-wrapper-7b10188dce95ba68"></div>
@@ -170,8 +208,8 @@
 
         <div class="d-flex justify-content-center mt-5">
 
-            <div id="news-button" class="btn btn-primary p-3 font-weight-bold">VIEW ALL NEWS</div>
-            <div id="events-button" class="btn btn-primary p-3 font-weight-bold">VIEW FULL CALENDAR</div>
+            <a href="#" id="news-button" class="btn btn-primary p-3 font-weight-bold">VIEW ALL NEWS</a>
+            <a href="#" id="events-button" class="btn btn-primary p-3 font-weight-bold">VIEW FULL CALENDAR</a>
 
         </div>
 
