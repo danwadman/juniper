@@ -1,9 +1,9 @@
 // Set up swiper slider
 
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  slidesPerGroup: 3,
+  slidesPerView: 1,
+  spaceBetween: 40,
+  slidesPerGroup: 1,
   loop: true,
   loopFillGroupWithBlank: true,
   pagination: {
@@ -20,13 +20,13 @@ var swiper = new Swiper(".mySwiper", {
       320: {
         slidesPerView: 1,
         slidesPerGroup: 1,
-        spaceBetween: 20
+        spaceBetween: 40
       },
       // when window width is >= 480px
       480: {
         slidesPerView: 1,
         slidesPerGroup: 1,
-        spaceBetween: 30
+        spaceBetween: 40
       },
       // when window width is >= 640px
       640: {
