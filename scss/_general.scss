@@ -23,6 +23,10 @@ a:hover {
     color: currentColor;
 }
 
+#page-content-wrapper {
+    display: none;
+}
+
 .logo {
     background-color: $purple-dark;
     border-radius: 10px;

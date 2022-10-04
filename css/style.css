@@ -8,6 +8,10 @@ a:hover {
   color: currentColor;
 }
 
+#page-content-wrapper {
+  display: none;
+}
+
 .logo {
   background-color: #281838;
   border-radius: 10px;

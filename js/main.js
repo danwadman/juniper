@@ -45,6 +45,8 @@ var swiper = new Swiper(".mySwiper", {
 
 $(document).ready(function () {
 
+  $('#page-content-wrapper').delay(100).fadeIn(200);
+
   //Make news slider show first, set font colours and lines 
   $('#news').addClass("purple");
   $('#events').addClass("grey-dark");
@@ -75,5 +77,7 @@ $(document).ready(function () {
     $('#lines-news').removeClass("lines-news");
     $('#lines-events').addClass("lines-events");
   });
+
+  delay
 
 });
