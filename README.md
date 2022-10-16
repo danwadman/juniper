@@ -1,2 +1,1 @@
-# Juniper Coding Challenge
- 
+# Responsive Slider
