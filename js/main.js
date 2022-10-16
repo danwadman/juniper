@@ -78,6 +78,4 @@ $(document).ready(function () {
     $('#lines-events').addClass("lines-events");
   });
 
-  delay
-
 });
